@@ -17,10 +17,10 @@
             <label for="valorCompra">Valor da compra</label>
             <input type="number" id="valorCompra" name="valorCompra" placeholder="Digite o valor da compra" step="0.01" min="0" />
 
-            <label for="porcentagem">Porcentagem de desconto</label>
-            <input type="number" id="porcentagem" name="porcentagem" placeholder="Digite a porcentagem" step="0.1" min="0" max="100" />
+            <p class="info">Se o valor for maior que R$ 100,00, o desconto será 10%. A partir de R$ 200,00, o desconto será 20%.</p>
 
             <div class="resultado">
+                <p>Desconto aplicado: <strong id="resultadoPorcentagem">0%</strong></p>
                 <p>Valor do desconto: <strong id="resultadoDesconto">R$ 0,00</strong></p>
                 <p>Valor final: <strong id="resultadoFinal">R$ 0,00</strong></p>
             </div>
