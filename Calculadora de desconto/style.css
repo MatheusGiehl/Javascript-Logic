@@ -34,6 +34,20 @@ main {
     gap: 16px;
 }
 
+main h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.info {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
 label {
     font-weight: 600;
     margin-bottom: 6px;
